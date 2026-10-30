@@ -60,3 +60,16 @@ fastlane/report.xml
 fastlane/Preview.html
 fastlane/screenshots/**/*.png
 fastlane/test_output
+
+## Build output
+DerivedData/
+build/
+.DS_Store
+
+## Signing material – never commit (use GitHub Secrets)
+*.p12
+*.cer
+*.certSigningRequest
+*.key
+*.mobileprovision
+ExportOptions.plist
